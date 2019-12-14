@@ -1,3 +1,11 @@
-.category-breadcrumb li:first-child.combobox {
-    display: none;
+.category-breadcrumb {
+    margin-right: 0 !important;
+    
+    li:first-child.combobox {
+        display: none;
+    }
+    
+    li:nth-child(2).combobox {
+        margin-right: 10px;
+    }
 }
